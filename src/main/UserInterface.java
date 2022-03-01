@@ -36,6 +36,9 @@ public class UserInterface {
         System.out.println("Now I will prove to you that I can count to any number you want.");
         int userNumber = this.scanner.nextInt();
         this.bot.countUpToN(userNumber);
+
+        // Bot will present a multiple choice question
+        this.bot.test();
     }
 
 }
