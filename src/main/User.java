@@ -29,4 +29,9 @@ public class User {
     public int getAge() {
         return this.age;
     }
+
+    // Calculataions
+    public void guessAge(int remainderOfThree, int remainderOfFive, int remainderOfSeven) {
+        this.age = (remainderOfThree * 70 + remainderOfFive * 21 + remainderOfSeven * 15) % 105;
+    }
 }

@@ -26,13 +26,9 @@ public class UserInterface {
         int remainderOfThree = this.scanner.nextInt();
         int remainderOfFive = this.scanner.nextInt();
         int remainderOfSeven = this.scanner.nextInt();
-        guessAge(remainderOfThree, remainderOfFive, remainderOfSeven);
+        this.user.guessAge(remainderOfThree, remainderOfFive, remainderOfSeven);
+        this.user.getAge();
         System.out.printf("Your age is %d, that's a good time to start programming!\n", this.user.getAge());
-    }
-
-    public void guessAge(int remainderOfThree, int remainderOfFive, int remainderOfSeven) {
-        // Formula to guess the age of the user
-        this.user.setAge((remainderOfThree * 70 + remainderOfFive * 21 + remainderOfSeven * 15) % 105);
     }
 
 }
