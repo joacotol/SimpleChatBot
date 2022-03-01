@@ -6,5 +6,6 @@ This project will allow me to create a simple chat bot to further improve my und
 - 1st: write a bot the displays a greeting, its name, and the date of its creation
 - 2nd: introduce yourself to the bot, the bot will then greet you by your name
 - 3rd: the chat bot will try to guess your age using arithemtic operations
+- 4th: the bot will count from 0 to any positive number that the user enters
 
 ### Created by: @joacotol
