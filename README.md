@@ -4,5 +4,6 @@ This project will allow me to create a simple chat bot to further improve my und
 
 ## Features:
 - 1st: write a bot the displays a greeting, its name, and the date of its creation
+- 2nd: introduce yourself to the bot, the bot will then greet you by your name
 
 ### Created by: @joacotol
