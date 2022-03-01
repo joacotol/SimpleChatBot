@@ -7,6 +7,10 @@ public class User {
         this.name = name;
     }
 
+    public User() {
+        this.name = "Default";
+    }
+
     public void setName(String name) {
         this.name = name;
     }
