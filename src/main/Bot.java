@@ -3,13 +3,12 @@ public class Bot {
 
     private String name;
     private int birthYear;
-    private int userAge;
-    private User user;
+    private int maxCount;
 
     public Bot(String name, int birthYear) {
         this.name = name;
         this.birthYear = birthYear;
-        this.userAge = 0;
+        this.maxCount = 0;
     }
 
     public void setName(String name) {
@@ -29,7 +28,11 @@ public class Bot {
         return this.birthYear;
     }
 
-    public int getUserAge() {
-        return this.userAge;
+    // Calculations
+    public void countUpToN(int n) {
+        for (int i = 0; i <= n; i++) {
+            System.out.printf("%d!\n", i);
+        }
+        System.out.println("Completed, have a nice day!");
     }
 }
